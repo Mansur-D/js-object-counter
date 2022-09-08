@@ -3,18 +3,20 @@ const counter = {
 
   reset: function () {
     //
+    this.value === 0;
   },
 
   increment: function () {
-    //
+    this.value +=1;
   },
 
   incrementBy: function (amount) {
+    this.value += amount;
     //
   },
 
   decrement: function () {
-    // 
+    this.value -=1;
   },
 
   reset: function () {
